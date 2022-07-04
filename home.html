@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Arquitetura</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(rgb(123, 212, 255), rgb(255, 255, 255));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        h1{
+            padding-top: 150px;
+            color: white;
+            font-size: 50px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            color: white;
+            font-size: 30px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border: 3px solid #56c1ff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        a:hover{
+            background-color: #56c1ff;
+        }
+        .space {
+            width: 7px;
+            height: auto;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Projetos de Arquitetura</h1>
+    <h2>Entrada de Usuário</h2>
+    <div class="box">
+        <a href="login.php">Login</a>
+        <div class="space">
+        </div>
+        <a href="formulario.php">Cadastro</a>
+    </div>
+</body>
+</html>
